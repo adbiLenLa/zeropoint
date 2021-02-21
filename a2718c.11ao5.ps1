@@ -10,6 +10,8 @@
 #	a man skilled in the art will find much to
 #	enjoy in this module:
 #
+#	division by zero
+#
 #	division to infinite precision
 #	rational nt roots
 #	base-n big number addition and subtraction
