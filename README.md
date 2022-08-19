@@ -25,7 +25,7 @@ produce yellow through the admixture of green and red.  it is amazing that the z
 has persisted, given the fact that these trigonometric identities are widely known.
 
 the zero-point fallacy has mankind trapped  on the earth without nuclear fusion.  the zero-point axiom makes
-faster than light travel possible.  fusion is an altogether different topic: nuclear fusionn is an
+faster than light travel possible.  fusion is an altogether different topic: nuclear fusion is an
 enzymatic process.  
 
 john david jones
