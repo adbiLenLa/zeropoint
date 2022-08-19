@@ -733,6 +733,12 @@ function a7([int] $a7La, [int] $a7Le){
      if($aLiaa7 -lt 0){
         $aLuaa7   = a8 0 $aLuaa7;
      }  
+     if($a7Le -eq 0){
+         if($a7La -eq 0){
+	   $aLuaa7 = 1
+	 }
+     }
+     
         $aLuaa7;
 }#end a7
 function a7c{
