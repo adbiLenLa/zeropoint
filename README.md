@@ -32,6 +32,6 @@ john david jones
 #11b3ba/3qg:0z:vV
 
 #11b3b/3qh:0z:vV
-what a strange sensation.  i have prepared a feast but i am alone in the dark.  only i know
-about the zer0-p0int fallacy(there will be no zetgeist here).  consider this: the so-called dark matter in the universe is found hiding in the momentum of light.  relativistic momentum arising from differences in the speed of light in universal mmedia.  the lorentzian contractions are finally uderstood in the light
+what a strange sensation.  i have prepared a feast but i am alone in the Light.  only i know
+about the zer0-p0int fallacy(there will be no zetgeist here).  consider this: the so-called dark matter in the universe is found hiding in the momentum of light.  relativistic momentum arising from differences in the speed of light in universal media.  the lorentzian contractions are finally uderstood in the light
 of this zer0-p0int axiom.  
