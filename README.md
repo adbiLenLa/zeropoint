@@ -21,11 +21,10 @@ sin(a)/a as a approaches 0 === 0/0 = 1
 these identities constitute the zero-poinbt axiom.
 
 division by zero cannot be proven by recourse to first principles any more than you can
-produce yellow through the admixture of green and red.  it is amazing that the div-zero fallacy 
+produce yellow through the admixture of green and red.  it is amazing that the no-div-zero fallacy 
 has persisted, given the fact that these trigonometric identities are widely known.
 
-the div-zero fallacy has mankind trapped  on the earth without nuclear fusion.  the zero-point axiom makes
-faster than light travel possible.  fusion is an altogether different topic: nuclear fusion is an
+the no-div-zero fallacy has mankind trapped  on the earth without nuclear fusion.  the zero-point axiom makes faster than light travel possible.  fusion is an altogether different topic: nuclear fusion is an
 enzymatic process.  
 
 john david jones
