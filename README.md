@@ -35,3 +35,5 @@ john david jones
 what a strange sensation.  i have prepared a feast but i am alone in the Light.  only i know
 about the div-zero fallacy(there will be no zetgeist here).  consider this: the so-called dark matter in the universe is found hiding in the momentum of light.  relativistic momentum arising from differences in the speed of light in universal media.  the lorentzian contractions are finally uderstood in the light
 of this zer0-p0int axiom.  
+
+this brings us to the question of the tangent is always perpendicular the radius, regardless of the angle.  we can only conclude that the tangent is zer0 at pi/2.  there is no asymptote at positive or negative  infinity.   
