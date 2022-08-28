@@ -37,3 +37,5 @@ about the div-zero fallacy(there will be no zetgeist here).  consider this: the 
 of this zer0-p0int axiom.  
 
 this brings us to the question of the tangent is always perpendicular the radius, regardless of the angle.  we can only conclude that the tangent is zer0 at pi/2.  there is no asymptote at positive or negative  infinity.   
+
+we are interested in simple harmonic motion.  the universe does not implode every time a wheel rotates through pi/2.  
