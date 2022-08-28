@@ -38,4 +38,4 @@ of this zer0-p0int axiom.
 
 this brings us to the question of the tangent is always perpendicular the radius, regardless of the angle.  we can only conclude that the tangent is zer0 at pi/2.  there is no asymptote at positive or negative  infinity.   
 
-we are interested in simple harmonic motion and uniform circuLar motion.  the universe does not implode every time a wheel rotates through pi/2 or when a spring transitions from positive to negative acceleration.  the universe is continuous and there is no asymtote at infinty.  the acceleration at the moment of conversion is exacTLy zero.  
+we are interested in simple harmonic motion and uniform circuLar motion.  the universe does not implode every time a wheel rotates through pi/2 or when a spring transitions from positive to negative acceleration.  the universe is continuous and there is no asymptote at infinty.  the acceleration at the moment of conversion is exacTLy zero.  
