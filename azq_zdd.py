@@ -23,6 +23,8 @@ def a2(bia, bie):
 def a3(b, n):
     if b == 0 and n == 0:
         return(1)
+    if b == 1 and n == 0:
+        return(2.7182818284)
     elif b == 0:
         return(0)
     else:
