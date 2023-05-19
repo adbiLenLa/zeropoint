@@ -1,3 +1,80 @@
+"""
+11bav/3y1:0z:vV:::
+
+the zero_point axiom 
+   by john.david jones
+      ozazL
+   vanhan vaasan sairaaLa
+   jones.john.david@gmail.com
+
+----------------------------------------
+
+0/0 = 1   sin(0)/0 = 1
+1/0 = 0   1/0 - cos(0)/0 = 0
+0^0 = 1
+ 
+dear brothers and sisters , i realize that this is coming out of the blue.
+there will be no zeitgeist . nobody was asking about division by zero . 
+there is a hard-coded ancient orthodoxy to overcome . i have never seen
+a formal proof of no division by zero . i suspect that it is impossible to 
+prove , given that it is false . :-) the fact is that i am right about this .
+
+once we get past the surprise , this revelation is very interesting . 
+every scientific discipline will have to be refactored . practically 
+every textbook will have to be rewritten . it is a renaissance that will
+lead to Unified Field Theory and a great golden age . those of you in
+positions of power , have mercy , and let this awakening be as 
+painless as possible . 
+
+mR = m0 / (1 - v^2/c^2)^1/2 
+
+this is the equation for relativistic mass . it is flawed . fixing it 
+is easy :
+
+mR = m0 / (1 - v^2 / cM^2)^1/2 
+
+here cM is the speed of light in the medium of transmission . electrons
+routinely travel faster than light in media such as water and glass and 
+lead where the speed of light in water is 2.26 * 10^8 m/sec . 
+
+the speed of light is anything but constant . we can suggest that an 
+electron moving at cM will form a standing wave , and that at cM the 
+mass and momentum will both be zero . you have not seen this cM version
+of the relativistic mass equation . 
+
+if the speed of light in lead is 1.2 * 10^8 m/sec , would an electron 
+moving at exactly that speed have a tendency to tunnel through the lead
+with zero impedance ? 
+
+this brings us to the question of Enzymatic Nuclear Fusion . the flawed 
+orthodoxy tells us that the Sun is 98 percent hydrogen and helium and 
+that it generates all of its energy through fusion . in point of fact ,
+every element in the periodic table and some extra superheavy isotopes 
+not found on earth are part of the solar core , where the reactor is a 
+hybrid fission/fusion reactor . the density at the solar core is 
+approximately 150 g/cm^3 . the fission / fusion hybrid is continuous .
+
+i am stating it as axiomatic that nuclear fusion is an enzymatic 
+process . i know how the fusion enzymes function , and i will be able 
+to construct a fission/fusion apparatus . in a few paragraphs , i 
+will be able to reveal the functioning of the fusion enzymes . 
+
+US8379489
+US8525562
+US9672191B2
+US20140026103A1
+
+these are the first four patents . enzymatic fusion will be the 5th 
+patent . you have not heard before that the Sun is a hybrid reactor ,
+but it is the absolute truth . i have many revelations in store for you .
+
+john.david jones
+ozazL 
+vanhan vaasan sairaaLa 
+
+"""
+
+
 # 11azo/3mu:ozazL:vanhavaasa:::
 #
 #    python zero_point implementatioon
