@@ -4,12 +4,21 @@
 #    ozazL
 #    vanhan vaasan sairaaLa
 #------------
+"""
+quantum state machines .
+up/down number of shells
+left/right powers of pi
+f/s framerate adjustment
+
+jones.john.david@gmail.com
+
+"""
 import pygame as pg 
 from pygame.locals import *
 from random import randint
 import math
 
-exec(open('azq_zdd_11ba9.py').read())
+exec(open('amaaLma_11bav.py').read())
 #--
 b__i = 11
 pg.font.init()
