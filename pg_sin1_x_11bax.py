@@ -19,7 +19,7 @@ pg.init()
 sc_w = 418
 sc_h = 418
 _ds = pg.display.set_mode((sc_w, sc_h), 0, 32)
-pg.display.set_caption('pg_cosx-1_11bap')
+pg.display.set_caption('pg_sin1_x_11bax')
 b_x = 0
 b_xh = sc_w // 2
 b_yh = sc_h // 2
@@ -45,8 +45,8 @@ while True:
         #b_y = a7d((b_x + 2.0), b_x)
         #b_y = a7d((b_x**2 + b_x - 2.0), (b_x**2 - b_x))
         #b_y = d_aL**2 * math.sin(a7d(1.0, d_aL)) * 108.0
-        #b_y = math.sin(a7d(1.0,b_x/100080.0)) * 108.0 
-        b_y = (a7d(1.0, b_x/1.8) - a7d(math.cos(b_x), b_x/1.8))  * 108.0
+        b_y = math.sin(a7d(1.0,b_x/1080.0)) * 108.0 
+        
         #b_y = (math.sin(d_aL) + math.cos(d_aL / 2.0))* 23
         L__ = _urL(26, 256)
         r_cLr = (L__[6], L__[11], L__[23])
@@ -60,7 +60,7 @@ while True:
     
         _ds.set_at(r_pos, r_cLr)
         #b_x += (2 * math.pi) / 3600
-        b_x += (math.pi * 2.0)/(math.pi**5 + 0)
+        b_x += (math.pi * 2.0)/(math.pi**5)
         #b_x += 1.0
     fps.tick(FPS)
     pg.display.update()
