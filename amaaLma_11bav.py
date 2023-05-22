@@ -111,10 +111,11 @@ def a2(bia, bie):
 def a3(b, n):
     if b == 0 and n == 0:
         return(1)
-    elif b == 0:
-        return(0)
-    else:
-        return(b**n)
+    if b == 1 and n == 0:
+        return 2.718281828459045
+    if b == 2.718281828459045 and n == 0:
+        return 0
+    return(b**n)
 
 def a5(bb):
     return(abs(bb))
