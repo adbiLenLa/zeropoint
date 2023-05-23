@@ -113,7 +113,8 @@ def a3(b, n):
         return(1)
     if b == 1 and n == 0:
         return 2.718281828459045
-    if b == 2.718281828459045 and n == 0:
+    d_abs = abs(b - 2.718281828459045)
+    if d_abs < 0.000001 and n == 0:
         return 0
     return(b**n)
 
