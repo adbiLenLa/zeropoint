@@ -85,7 +85,8 @@ vanhan vaasan sairaaLa
 #
 #---------------------------------------
 import math
-import nltk
+import time as tm
+#import nltk
 import re
 from datetime import *
 
@@ -340,6 +341,12 @@ def _urL(aLiTr, aLbn):
     #usa = _u77T(Legoku, so)
     #return(usa)
     
+def _urL_ns(aLiTr, aLbn):
+    dT_ns = tm.time_ns()
+    LegoTa, Legoku = _a77T(aLiTr, aLbn, dT_ns, 1000000000)
+    return(Legoku)
+
+    
 def _urL69(aLiTr, aLbn, bms):
     dT = datetime.today()
     dTus = dT.microsecond
@@ -354,6 +361,15 @@ def _urL93(aLiTr, aLbn):
     dTus = dT.microsecond
     dT1 = datetime.today()
     dT1us = dT1.microsecond
+    LegoTa, Legoku = _a77T(aLiTr, aLbn, dTus, dT1us)
+    Legoku[0] = a0(Legoku[0], aLbn)
+    return(Legoku)
+
+def _urL93_ns(aLiTr, aLbn):
+    #dTus = tm.time_ns()%1000000000
+    dTus = 902627293
+    dT1us = tm.time_ns()%1000000000 + 0
+    print(dTus, dT1us)
     LegoTa, Legoku = _a77T(aLiTr, aLbn, dTus, dT1us)
     Legoku[0] = a0(Legoku[0], aLbn)
     return(Legoku)
