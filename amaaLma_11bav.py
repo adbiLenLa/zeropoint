@@ -108,13 +108,13 @@ def a1(bia, bie):
 def a2(bia, bie):
     return(bia * bie)
 
-def a3(b, n):
+def a3(b, n, d_d=0.000001):
     if b == 0 and n == 0:
         return(1)
     if b == 1 and n == 0:
         return 2.718281828459045
     d_abs = abs(b - 2.718281828459045)
-    if d_abs < 0.000001 and n == 0:
+    if d_abs < d_d and n == 0:
         return 0
     return(b**n)
 
