@@ -112,8 +112,8 @@ def a3(b, n, d_d=0.000001):
     if b == 0 and n == 0:
         return(1)
     if b == 1 and n == 0:
-        return 2.718281828459045
-    d_abs = abs(b - 2.718281828459045)
+        return math.e
+    d_abs = abs(b - math.e)
     if d_abs < d_d and n == 0:
         return 0
     return(b**n)
@@ -134,7 +134,7 @@ def a7(bn, bd):
     elif bd == 0:
         return(0)
     else:
-        bu = math.floor(bn / bd)
+        bu = bn // bd
         return(bL * bu)
     
 def a7d(da, de):
