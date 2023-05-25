@@ -93,23 +93,27 @@ from datetime import *
 #exec(open('azq_zdd_11ba9.py').read())
 #never uncomment this
 
-ssL = "boLieueaLestn"
+ssL = "boLieueaLesuTnam"
 soL = "abgdeuzctikLmnsopxqrST"
 sos = "0123456789abcdefghijklmnopqrstuvwxyz"
 #------------------------------------
 def a0(bi, bn):
+    #modulus 
     if bn == 0:
         return(bi)
     else:
         return(bi % bn)
 
 def a1(bia, bie):
+    #addition
     return(bia + bie)
 
 def a2(bia, bie):
+    #multiplication
     return(bia * bie)
 
 def a3(b, n, d_d=0.000001):
+    #exponential 
     if b == 0 and n == 0:
         return(1)
     if b == 1 and n == 0:
@@ -120,9 +124,11 @@ def a3(b, n, d_d=0.000001):
     return(b**n)
 
 def a5(bb):
+    #absolute value
     return(abs(bb))
 
 def a7(bn, bd):
+    #integer division
     bL = 1
     if bd < 0:
         bd = -1 * bd
@@ -139,6 +145,7 @@ def a7(bn, bd):
         return(bL * bu)
     
 def a7d(da, de):
+    #float division
     if de == 0 and da == 0:
         return 1.0
     if de == 0:
@@ -148,6 +155,7 @@ def a7d(da, de):
     
 
 def _a77(egoTa, egoku, aLiTr, aLbn, aLxn, aLxd):
+    #division to infinite precision
     #egoTa = []
     #egoku = []
     Lia = 0
