@@ -123,15 +123,12 @@ def a2(bia, bie):
     #multiplication
     return(bia * bie)
 
-def a3(b, n, d_d=0.000001):
+def a3(b, n):
     #exponential 
     if b == 0 and n == 0:
         return(1)
     if b == 1 and n == 0:
-        return math.e
-    d_abs = abs(b - math.e)
-    if d_abs < d_d and n == 0:
-        return 0
+        return 1
     return(b**n)
 
 def a5(bb):
