@@ -68,6 +68,17 @@ these are the first four patents . enzymatic fusion will be the 5th
 patent . you have not heard before that the Sun is a hybrid reactor ,
 but it is the absolute truth . i have many revelations in store for you .
 
+observe . barely a page turns without a proof of 0/0 = 1 .
+
+consider the derivative of x :
+    ((x + h) - x) / h as h -> 0
+    = h / h = 1 as h -> 0
+    0/0 = 1
+
+there is no other way to look at it . 0/0 = 1 is a fundamental axiom .
+
+    
+
 john.david jones
 ozazL 
 vanhan vaasan sairaaLa 
