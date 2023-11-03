@@ -99,6 +99,9 @@ class App(tk.Tk):
         self.btn2 = tk.Button(self, text="clear", command=self.clear)
         self.btn2.pack()
         #---
+        self.btn3 = tk.Button(self, text="save", command=self.save)
+        self.btn3.pack()
+        #---
         self.text0 = tk.Text(self, width=72, height=23)
         self.text0.pack()
         #---
@@ -130,6 +133,12 @@ class App(tk.Tk):
         self.text0.insert("1.0", s_)
     def clear(self):
         self.text0.delete("1.0", tk.END)
+    def save(self):
+        file_name = self.entry0.get()
+        su = self.text0.get("1.0", tk.END)
+        fo = open(file_name, "w")
+        fo.write(su)
+        fo.close()
 #------------------------
 class CanvasApp(tk.Tk):
     def __init__(self):
