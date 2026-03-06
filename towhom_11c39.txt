@@ -4,9 +4,11 @@ john david jones
 
 to whom it may concern ,
 
-what follows is a concise and complete proof of division by zero . do not let them confuse you with the argument that the derivative is an asymptotic mechanism .
+what follows is a concise and complete proof of division by zero . 
+do not let them confuse you with the argument that the derivative is an asymptotic mechanism .
 
-sin(theta)/theta as theta approaches zero is an approximation as theta approaches zero . it  is equal to 1 only and exactly where theta equals zero .
+sin(theta)/theta as theta approaches zero is an approximation as theta approaches zero . 
+it  is equal to 1 only and exactly where theta equals zero .
 
 https://github.com/adbiLenLa/patents
 
@@ -22,4 +24,5 @@ they are :
    monopole field generator (starseed propulsion system and weapon technology)
 
 john david jones
+
 vanhan vaasan sairaaLa
