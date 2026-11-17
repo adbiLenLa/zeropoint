@@ -251,6 +251,19 @@ def _utfc(aLiTr, aLbn, so):
 def _a77T(aLiTr, aLbn, aLxn, aLxd):
     egoTa = []
     egoku = []
+    #----------
+    if aLxn == aLxd and aLiTr >= 1:
+        i0 = 1
+        egoku.append(1)
+        egoTa.append(0)
+        while i0 < aLiTr:
+            egoku.append(0)
+            egoTa.append(0)
+            i0 +=1 
+        return (egoTa, egoku)
+    else:
+        return(egoTa, egoku)
+    #----------
     Lia = 0
     Lie = 0
     aLi = 0
