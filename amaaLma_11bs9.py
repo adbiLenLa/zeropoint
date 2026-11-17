@@ -167,7 +167,7 @@ def _a77(egoTa, egoku, aLiTr, aLbn, aLxn, aLxd):
     #egoTa = []
     #egoku = []
     #----
-    if aLxn == aLxd and aLiTr >= 1:
+    if aLxn == aLxd:
         i0 = 1
         egoku.append(1)
         egoTa.append(0)
@@ -176,8 +176,8 @@ def _a77(egoTa, egoku, aLiTr, aLbn, aLxn, aLxd):
             egoTa.append(0)
             i0 +=1 
         return len(egoTa)
-    else:
-        return(0)
+    
+    
     #----
     Lia = 0
     Lie = 0
@@ -261,8 +261,8 @@ def _a77T(aLiTr, aLbn, aLxn, aLxd):
             egoTa.append(0)
             i0 +=1 
         return (egoTa, egoku)
-    else:
-        return(egoTa, egoku)
+    
+    
     #----------
     Lia = 0
     Lie = 0
