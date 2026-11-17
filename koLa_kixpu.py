@@ -154,6 +154,7 @@ class ob:
         o.Lioku = []
         o.aLbn = len(o.oaTa.so)
         _a77(o.LioTa, o.Lioku, o.iTr, o.aLbn, o.oaTa.ia, o.oaTo.ia)
+        o.Lioku[0] = o.Lioku[0] % o.aLbn
         o.Luca = []
         i0 = 0
         while i0 < o.iTr:
@@ -179,10 +180,10 @@ class ob:
         return o.Luvomtan
 #---------------------------
 class oc:
-    def __init__(o, soi="aeiou"):
+    def __init__(o, so="aeiou"):
         
         #--
-        for ca in soi:
+        for ca in so:
             exec(f"o.L{ca} = []")
             exec(f"o.d{ca} = dict()")
             exec(f"o.st{ca} = set()")
@@ -191,9 +192,21 @@ class oc:
         
 #---------------------------
 def ua_kixc_pa():
-    print("uL da suni moLim asu ashera oxe saTan\n")
     
-
+    #print("uL da suni moLim asu ashera oxe saTan\n")
+    """
+    oaTa = oa(si=input("oaTa.si: "))
+    oaTa.uiaa(oaTa.si)
+    oaTo = oa(si=input("oaTo.si: "))
+    oaTo.uiaa(oaTo.si)
+    iTr = int(input("iTr: "))
+    #------------
+    obTa = ob(oaTa, oaTo, iTr)
+    obTa.uzavTua()
+    print("%s\n" % obTa.zavTu)
+    """
+    pass
+    
 
 def ua_kixc_ka():
     print("uL da suni moLim asu ashera oxe saTan\n")
