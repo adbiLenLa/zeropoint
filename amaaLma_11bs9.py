@@ -252,7 +252,7 @@ def _a77T(aLiTr, aLbn, aLxn, aLxd):
     egoTa = []
     egoku = []
     #----------
-    if aLxn == aLxd and aLiTr >= 1:
+    if aLxn == aLxd:
         i0 = 1
         egoku.append(1)
         egoTa.append(0)
