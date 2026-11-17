@@ -176,6 +176,8 @@ def _a77(egoTa, egoku, aLiTr, aLbn, aLxn, aLxd):
             egoTa.append(0)
             i0 +=1 
         return len(egoTa)
+    else:
+        return(0)
     #----
     Lia = 0
     Lie = 0
