@@ -14,6 +14,8 @@ def ua_kixj_ka():
     oaTo = oa(si=input("oaTo.si: "))
     oaTo.uiaa(oaTo.si)
     iTr = int(input("iTr: "))
+    if iTr < 3:
+        iTr = 3
     obTa = ob(oaTa, oaTo, iTr)
     #----
     fia = open("adaLao_sunisamgu.txt", "r")
@@ -28,6 +30,7 @@ def ua_kixj_ka():
         daaT[L_[0]] = L_[1]
     #---
     obTa.uzavTua()
+    print(f"{obTa.zavTu}\n")
     i0 = 0
     while i0 < obTa.iTr - 2:
         s_z = obTa.zavTu[i0:i0+3]
