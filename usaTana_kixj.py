@@ -10,8 +10,12 @@ import json
 def ua_kixj_ka():
     print("onoTaashera etmesaTan")
     oaTa = oa(si=input("oaTa.si: "))
+    if oaTa.si == "":
+        oaTa.si = "ozazL"
     oaTa.uiaa(oaTa.si)
     oaTo = oa(si=input("oaTo.si: "))
+    if oaTo.si == "":
+        oaTo.si = "adniboL"
     oaTo.uiaa(oaTo.si)
     iTr = int(input("iTr: "))
     if iTr < 3:
