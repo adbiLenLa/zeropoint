@@ -10,10 +10,22 @@ import json
 def ua_kixj_ka():
     print("onoTaashera etmesaTan")
     oaTa = oa(si=input("oaTa.si: "))
+    #---
     if oaTa.si == "":
         oaTa.si = "ozazL"
+    if oaTa.si[0] in "0123456789":
+        oaTa.ia = int(oaTa.si)
+        oaTa.si = oaTa.usia(oaTa.ia)
+    #---
     oaTa.uiaa(oaTa.si)
     oaTo = oa(si=input("oaTo.si: "))
+    if oaTo.si == "":
+        oaTo.si = "adniboL"
+    #---
+    if oaTo.si[0] in "0123456789":
+        oaTo.ia = int(oaTo.si)
+        oaTo.si = oaTo.usia(oaTo.ia)
+    #---
     if oaTo.si == "":
         oaTo.si = "adniboL"
     oaTo.uiaa(oaTo.si)
@@ -34,6 +46,8 @@ def ua_kixj_ka():
         daaT[L_[0]] = L_[1]
     #---
     obTa.uzavTua()
+    print(f"{oaTa.si}:{oaTa.ia}")
+    print(f"{oaTo.si}:{oaTo.ia}")
     print(f"{obTa.zavTu}\n")
     i0 = 0
     while i0 < obTa.iTr - 2:
