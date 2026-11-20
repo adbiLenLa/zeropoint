@@ -26,8 +26,6 @@ def ua_kixj_ka():
         oaTo.ia = int(oaTo.si)
         oaTo.si = oaTo.usia(oaTo.ia)
     #---
-    if oaTo.si == "":
-        oaTo.si = "adniboL"
     oaTo.uiaa(oaTo.si)
     iTr = int(input("iTr: "))
     if iTr < 3:
