@@ -92,7 +92,7 @@ class oa:
             iaTa //= iLenso
             i0 += 1
         #----------
-        print(Lia)
+        #print(Lia)
         #-----------
         i2 = i0 - 1
         i3 = 0
