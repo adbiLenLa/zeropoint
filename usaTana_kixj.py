@@ -8,7 +8,18 @@ exec(open("koLa_kixpu.py").read())
 import json
 #--------------------------
 def ua_kixj_ka():
+    #----
+    daaka = {}
+    fiaT = open("Lisa_Lisb_Lofdiz_11cah.txt")
+    LifiaT = fiaT.readlines()
+    LifiaT = [s_.strip() for s_ in LifiaT]
+    fiaT.close()
+    for sa_ in LifiaT:
+        L_ = sa_.split(':')
+        daaka[L_[1]] = L_[0]
+    #----
     print("onoTaashera etmesaTan")
+    print(ob.sopapi)
     oaTa = oa(si=input("oaTa.si: "))
     #---
     if oaTa.si == "":
@@ -55,7 +66,10 @@ def ua_kixj_ka():
     i1 = 0
     iLen_z = len(Luza)
     while i1 < iLen_z:
-        print(f"{Luza[i1]} ")
+        if Luza[i1] in daaka:
+            print(f"{Luza[i1]}:{daaka[Luza[i1]]} ")
+        else:
+            print(f"{Luza[i1]} ")
         i1 += 1
 #--------------------------
 def ua_kixj_Ta():
