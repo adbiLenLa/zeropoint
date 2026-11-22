@@ -189,7 +189,54 @@ class oc:
             exec(f"o.st{ca} = set()")
             exec(f"o.Lu{ca} = []")
         #--
-        
+#---------------------------
+class od:
+    def __init__(o, sa="HCDS", sb="A2345678TJQK", ca="H", cb="A", ia=1):
+        o.sa = sa
+        o.sb = sb
+        o.ca = ca
+        o.cb = cb
+        o.ia = ia
+#---------------------------
+class Lodpipa:
+    #  this is a standard 52 card deck
+    def __init__(o, sa="HDCS", sb="A23456789TJQK", iTr=1296, iboL=0):
+        o.sa = sa
+        o.sb = sb
+        o.iboL = iboL # 1 for base 13
+        o.iTr = iTr
+        o.oaTa = oa()
+        o.oaTo = oa()
+        o.obTa = ob(o.oaTa, o.oaTo)
+        o.Loda = []
+        o.uoifea()
+
+
+    def uoifea(o): # reset
+        o.Loda = []
+        for ca in o.sa:
+            for cb in o.sb:
+                idx = o.sb.index(cb)
+                if o.iboL == 0:
+                    if idx >= 9:
+                        ia = 10
+                    else:
+                        ia = idx + 1
+                if o.iboL == 1:
+                    ia = idx + 1
+                o.Loda.append(od(sa=o.sa, sb=o.sb, ca=ca, cb=cb, ia=ia))
+
+    def uefoshemia(o, ibn=23, ibus=23): # shuffle
+        if ibn < 2:
+            ibn = 2
+        Lia = o.obTa.uvomtanLa(o.iTr, ibn, ibus)
+        i0 = 0
+        while i0 < o.iTr:
+            i_a = i0 % len(o.Loda)
+            i_b = (i0 + Lia[i0]) % len(o.Loda)
+            o.Loda[i_a], o.Loda[i_b] = o.Loda[i_b], o.Loda[i_a]
+            i0 += 1
+    
 #---------------------------
 def ua_kixc_pa():
     
