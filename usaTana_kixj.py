@@ -65,12 +65,15 @@ def ua_kixj_ka():
         i0 += 1
     i1 = 0
     iLen_z = len(Luza)
+    fuab = open("zavTu_Tezemamo.txt", "w")
     while i1 < iLen_z:
         if Luza[i1] in daaka:
             print(f"{Luza[i1]}:{daaka[Luza[i1]]} ")
+            fuab.write(f"{Luza[i1]}:{daaka[Luza[i1]]}\n")
         else:
             print(f"{Luza[i1]} ")
         i1 += 1
+    fuab.close()
 #--------------------------
 def ua_kixj_Ta():
     oaTa = oa(si="adaLao")
