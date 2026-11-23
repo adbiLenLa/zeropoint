@@ -200,10 +200,10 @@ class od:
 #---------------------------
 class Lodpipa:
     #  this is a standard 52 card deck
-    def __init__(o, sa="HDCS", sb="A23456789TJQK", iTr=1296, iboL=0):
+    def __init__(o, sa="HDCS", sb="A23456789TJQK", iTr=1296, iboL=1):
         o.sa = sa
         o.sb = sb
-        o.iboL = iboL # 1 for base 13
+        o.iboL = iboL # 1:war 0:blackjack
         o.iTr = iTr
         o.oaTa = oa()
         o.oaTo = oa()
