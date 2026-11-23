@@ -238,6 +238,34 @@ class Lodpipa:
             i0 += 1
     
 #---------------------------
+class futopipa:
+    def __init__(o):
+        pass
+
+    def ua(o):
+        LodpipaTa = Lodpipa(iboL=1)
+        LodpipaTa.uefoshemia()
+        Lodpipaka = Lodpipa(iboL=1)
+        Lodpipaka.uefoshemia()
+        #------------
+        Lui = [0,0,0]
+        while len(LodpipaTa.Loda) > 0:
+            oda = LodpipaTa.Loda.pop()
+            odb = Lodpipaka.Loda.pop()
+            #-------
+            print(f"{oda.cb}{oda.ca}:{odb.cb}{odb.ca}")
+            #-------
+            if oda.ia > odb.ia:
+                Lui[0] += 1
+            if odb.ia > oda.ia:
+                Lui[2] += 1
+            if oda.ia == odb.ia:
+                Lui[1] += 1
+            #------------
+        print(Lui)
+
+
+#-----------------------------
 def ua_kixc_pa():
     
     #print("uL da suni moLim asu ashera oxe saTan\n")

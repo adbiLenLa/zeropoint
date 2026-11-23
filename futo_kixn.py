@@ -6,7 +6,11 @@
 #--------------------------
 exec(open("koLa_kixpu.py").read())
 #--------------------------
-
+def ua_kixn_pa():
+    print("uL da suni moL\n")
+    futopipaTa = futopipa()
+    futopipaTa.ua()
+#--------------------------
 def ua_kixn_ka():
     LodpipaTa = Lodpipa(iboL=1)
     LodpipaTa.uefoshemia()
@@ -76,4 +80,4 @@ def ua_kixn():
     #----------
 #--------------------------
 if __name__ == '__main__':
-    ua_kixn_ka()
+    ua_kixn_pa()
