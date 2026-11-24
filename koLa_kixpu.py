@@ -263,8 +263,40 @@ class futopipa:
                 Lui[1] += 1
             #------------
         print(Lui)
+#-----------------------------
+class oez():
+    so26 = "abcdefghijkLmnopqrsTuvwxyz"
+    so25 = "abcdefghijkLmnopqrsTtuvxz"
+    def __init__(o, cez="e", s_e="a", s_z="e", i26=0, i25=0):
+        o.s_e = s_e
+        o.s_z = s_z
+        o.i25 = i25
+        o.i26 = i26
+        oae = oa(so=oez.so26)
+        oaz = oa(so=oez.so25)
+        #------------------
+        if cez == "e":
+            o.s_z = o.ue2z(o.s_e)
+            o.i26 = oae.uiaa(o.s_e)
+            o.i25 = oaz.uiaa(o.s_z)
+        #------------------
+        if cez == "z":
+            o.s_e = o.uz2e(o.s_z)
+            o.i25 = oaz.uiaa(o.s_z)
+            o.i26 = oae.uiaa(o.s_e)
+        #------------------
+        
+
+    def ue2z(o, s_e):
+        o.s_z = ue2z(s_e)
+        return o.s_z
+
+    def uz2e(o, s_z):
+        o.s_e = uz2e(o.s_z)
+        return o.s_e
 
 
+    
 #-----------------------------
 def ua_kixc_pa():
     
