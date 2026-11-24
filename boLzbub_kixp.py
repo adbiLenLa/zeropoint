@@ -15,9 +15,9 @@ def ua_kixp():
     print("e or z")
     cez = input("cez: ")
     if cez == "e":
-        print(f"{oez.so26}")
+        print(f"{oez.sopaTu}")
     if cez == "z":
-        print(f"{oez.so25}")
+        print(f"{oez.sopapi}")
     s_ez = input("s_ez: ")
         
     #----------------
