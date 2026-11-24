@@ -275,6 +275,9 @@ class oez():
         oae = oa(so=oez.so26)
         oaz = oa(so=oez.so25)
         #------------------
+        if cez not in "ez":
+            cez = "e"
+        #------------------
         if cez == "e":
             o.s_z = o.ue2z(o.s_e)
             o.i26 = oae.uiaa(o.s_e)
