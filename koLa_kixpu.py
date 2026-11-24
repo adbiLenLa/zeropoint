@@ -265,15 +265,15 @@ class futopipa:
         print(Lui)
 #-----------------------------
 class oez():
-    so26 = "abcdefghijkLmnopqrsTuvwxyz"
-    so25 = "abcdefghijkLmnopqrsTtuvxz"
+    sopaTu = "abcdefghijkLmnopqrsTuvwxyz"
+    sopapi = "abcdefghijkLmnopqrsTtuvxz"
     def __init__(o, cez="e", s_e="a", s_z="e"):
         o.s_e = s_e
         o.s_z = s_z
         o.i25 = 0
         o.i26 = 0
-        oae = oa(so=oez.so26)
-        oaz = oa(so=oez.so25)
+        oae = oa(so=oez.sopaTu)
+        oaz = oa(so=oez.sopapi)
         #------------------
         if cez not in "ez":
             cez = "e"
