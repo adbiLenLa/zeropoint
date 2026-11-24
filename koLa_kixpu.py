@@ -272,21 +272,21 @@ class oez():
         o.s_z = s_z
         o.i25 = 0
         o.i26 = 0
-        oae = oa(so=oez.sopaTu)
-        oaz = oa(so=oez.sopapi)
+        o.oae = oa(so=oez.sopaTu)
+        o.oaz = oa(so=oez.sopapi)
         #------------------
         if cez not in "ez":
             cez = "e"
         #------------------
         if cez == "e":
             o.s_z = o.ue2z(o.s_e)
-            o.i26 = oae.uiaa(o.s_e)
-            o.i25 = oaz.uiaa(o.s_z)
+            o.i26 = o.oae.uiaa(o.s_e)
+            o.i25 = o.oaz.uiaa(o.s_z)
         #------------------
         if cez == "z":
             o.s_e = o.uz2e(o.s_z)
-            o.i25 = oaz.uiaa(o.s_z)
-            o.i26 = oae.uiaa(o.s_e)
+            o.i25 = o.oaz.uiaa(o.s_z)
+            o.i26 = o.oae.uiaa(o.s_e)
         #------------------
         
 
