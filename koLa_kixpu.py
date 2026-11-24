@@ -292,7 +292,7 @@ class oez():
         return o.s_z
 
     def uz2e(o, s_z):
-        o.s_e = uz2e(o.s_z)
+        o.s_e = uz2e(s_z)
         return o.s_e
 
 
