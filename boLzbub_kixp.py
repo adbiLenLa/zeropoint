@@ -12,6 +12,7 @@ sopiTu = "abcdefghijkLmnopqrsTuvwxyz"
 def ua_kixp():
     print("eLe uamu da bumdus\n")
     #----------------
+    print("e or z")
     cez = input("cez: ")
     if cez == "e":
         print(f"{oez.so26}")
