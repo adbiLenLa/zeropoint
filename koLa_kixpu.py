@@ -279,41 +279,45 @@ class oez():
             cez = "e"
         #------------------
         if cez == "e":
-            o.s_u = o.ue2z(o.s_i)
-            o.i_i = o.oae.uiaa(o.s_i)
-            o.i_u = o.oaz.uiaa(o.s_u)
+            o.ue2z(o.s_i)
         #------------------
         if cez == "z":
-            o.s_u = o.uz2e(o.s_i)
-            o.i_i = o.oaz.uiaa(o.s_i)
-            o.i_u = o.oae.uiaa(o.s_u)
+            o.uz2e(o.s_i)
         #------------------
         if cez == "f":
-            o.s_u = o.uz2zf(o.s_i)
-            o.i_i = o.oaz.uiaa(o.s_i)
-            o.i_u = o.oaz.uiaa(o.s_u)
+            o.uz2zf(o.s_i)
         #------------------
         if cez == "r":
-            o.s_u = o.uz2zr(o.s_i)
-            o.i_i = o.oaz.uiaa(o.s_i)
-            o.i_u = o.oaz.uiaa(o.s_u)
+            o.uz2zr(o.s_i)
         #------------------
         
 
     def ue2z(o, s_i):
+        o.s_i = s_i
         o.s_u = ue2z(s_i)
+        o.i_i = o.oae.uiaa(o.s_i)
+        o.i_u = o.oaz.uiaa(o.s_u)
         return o.s_u
 
     def uz2e(o, s_i):
+        o.s_i = s_i
         o.s_u = uz2e(s_i)
+        o.i_i = o.oaz.uiaa(o.s_i)
+        o.i_u = o.oae.uiaa(o.s_u)
         return o.s_u
 
     def uz2zf(o, s_i):
+        o.s_i = s_i
         o.s_u = uz2zf(s_i)
+        o.i_i = o.oaz.uiaa(o.s_i)
+        o.i_u = o.oaz.uiaa(o.s_u)
         return o.s_u
 
     def uz2zr(o, s_i):
+        o.s_i = s_i
         o.s_u = uz2zr(s_i)
+        o.i_i = o.oaz.uiaa(o.s_i)
+        o.i_u = o.oaz.uiaa(o.s_u)
         return o.s_u
     
 #-----------------------------
