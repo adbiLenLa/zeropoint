@@ -265,40 +265,56 @@ class futopipa:
         print(Lui)
 #-----------------------------
 class oez():
-    sopaTu = "abcdefghijkLmnopqrsTuvwxyz"
-    sopapi = "abcdefghijkLmnopqrsTtuvxz"
-    def __init__(o, cez="e", s_e="a", s_z="e"):
-        o.s_e = s_e
-        o.s_z = s_z
-        o.i25 = 0
-        o.i26 = 0
-        o.oae = oa(so=oez.sopaTu)
-        o.oaz = oa(so=oez.sopapi)
+    so26 = "abcdefghijkLmnopqrsTuvwxyz"
+    so25 = "abcdefghijkLmnopqrsTtuvxz"
+    def __init__(o, cez="e", s_i=""):
+        o.s_i = s_i
+        o.s_u = ""
+        o.i_i = 0
+        o.i_u = 0
+        o.oae = oa(so=oez.so26)
+        o.oaz = oa(so=oez.so25)
         #------------------
-        if cez not in "ez":
+        if cez not in "ezfr":
             cez = "e"
         #------------------
         if cez == "e":
-            o.s_z = o.ue2z(o.s_e)
-            o.i26 = o.oae.uiaa(o.s_e)
-            o.i25 = o.oaz.uiaa(o.s_z)
+            o.s_u = o.ue2z(o.s_i)
+            o.i_i = o.oae.uiaa(o.s_i)
+            o.i_u = o.oaz.uiaa(o.s_u)
         #------------------
         if cez == "z":
-            o.s_e = o.uz2e(o.s_z)
-            o.i25 = o.oaz.uiaa(o.s_z)
-            o.i26 = o.oae.uiaa(o.s_e)
+            o.s_u = o.uz2e(o.s_i)
+            o.i_i = o.oaz.uiaa(o.s_i)
+            o.i_u = o.oae.uiaa(o.s_u)
+        #------------------
+        if cez == "f":
+            o.s_u = o.uz2zf(o.s_i)
+            o.i_i = o.oaz.uiaa(o.s_i)
+            o.i_u = o.oaz.uiaa(o.s_u)
+        #------------------
+        if cez == "r":
+            o.s_u = o.uz2zr(o.s_i)
+            o.i_i = o.oaz.uiaa(o.s_i)
+            o.i_u = o.oaz.uiaa(o.s_u)
         #------------------
         
 
-    def ue2z(o, s_e):
-        o.s_z = ue2z(s_e)
-        return o.s_z
+    def ue2z(o, s_i):
+        o.s_u = ue2z(s_i)
+        return o.s_u
 
-    def uz2e(o, s_z):
-        o.s_e = uz2e(s_z)
-        return o.s_e
+    def uz2e(o, s_i):
+        o.s_u = uz2e(s_i)
+        return o.s_u
 
+    def uz2zf(o, s_i):
+        o.s_u = uz2zf(s_i)
+        return o.s_u
 
+    def uz2zr(o, s_i):
+        o.s_u = uz2zr(s_i)
+        return o.s_u
     
 #-----------------------------
 def ua_kixc_pa():

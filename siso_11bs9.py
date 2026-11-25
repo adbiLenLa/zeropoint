@@ -22,6 +22,35 @@ daz2e = {'a': ['o', 'e'], 'b': ['p', 'p'], 'c': ['x', 'j'], 'd': ['T', 'T'],
          't': ['T', 'd'], 'u': ['i', 'o'], 'v': ['r', 'z'], 'x': ['j', 'c'],
          'z': ['v', 'r']}
 
+#--------------------------
+daz2z = {'a': 'eo', 'b': 'pp', 'c': 'jx', 'd': 'Tt', 'e': 'ia',
+         'f': 'hs', 'g': 'kq', 'h': 'sf', 'i': 'ue', 'j': 'xc',
+         'k': 'qg', 'L': 'nm', 'm': 'Ln', 'n': 'mL', 'o': 'au',
+         'p': 'bb', 'q': 'gk', 'r': 'vz', 's': 'fh', 'T': 'td',
+         't': 'dT', 'u': 'oi', 'v': 'zr', 'x': 'cj', 'z': 'rv'}
+
+
+#--------------------------
+def uz2zf(s_i):
+    global daz2z
+    s_u = ""
+    i0 = 0
+    while i0 < len(s_i):
+        if s_i[i0] in daz2z:
+            s_u += daz2z[s_i[i0]][i0%2]
+        i0 += 1
+    return s_u
+
+def uz2zr(s_i):
+    global daz2z
+    s_u = ""
+    i0 = 0
+    while i0 < len(s_i):
+        if s_i[i0] in daz2z:
+            s_u += daz2z[s_i[i0]][::-1][i0%2]
+        i0 += 1
+    return s_u
+
 def  ue2z(sae):
   global dae2z
   suz = ''
